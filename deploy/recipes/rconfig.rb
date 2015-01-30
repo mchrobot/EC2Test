@@ -1,4 +1,4 @@
-bash "r_config" do
+bash "rconfig" do
   
   code <<-EOH
     echo www-port=80 >> /etc/rstudio/rserver.conf
