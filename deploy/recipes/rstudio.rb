@@ -1,7 +1,7 @@
 bash "download_r" do
   
   code <<-EOH
-    wget https://github.com/mchrobot/EC2Test/blob/master/rstudio-server-0.98.1091-x86_64.rpm
+    wget http://download2.rstudio.org/rstudio-server-0.98.1091-x86_64.rpm
   EOH
 end
   
