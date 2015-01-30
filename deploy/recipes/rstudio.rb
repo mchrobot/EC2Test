@@ -5,7 +5,7 @@ bash "download_r" do
   EOH
 end
   
-rpm_package "rstudio-server-0.98.1091-x86_64.rpm" do
+rpm_package "rstudio-server-0.98.1091-x86_64" do
   action :install
   options "--nogpgcheck"
 end
