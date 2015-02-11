@@ -5,31 +5,31 @@ user "havezm" do
 end
 
 user "piatkowskam" do
-  home "/home/piatkowskam"
+  home "/dev/sdf/piatkowskam"
   shell "/bin/bash"
   password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
 end
 
 user "schneggh" do
-  home "/home/schneggh"
+  home "/dev/sdf/schneggh"
   shell "/bin/bash"
   password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
 end
 
 user "wtdatapull" do
-  home "/home/wtdatapull"
+  home "/dev/sdf/wtdatapull"
   shell "/bin/bash"
   password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
 end
 
 user "shinyuser" do
-  home "/home/shinyuser"
+  home "/dev/sdf/shinyuser"
   shell "/bin/bash"
   password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
 end
 
 user "annualdash" do
-  home "/home/annualdash"
+  home "/dev/sdf/annualdash"
   shell "/bin/bash"
   password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
 end
