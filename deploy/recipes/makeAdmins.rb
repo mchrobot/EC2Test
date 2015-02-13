@@ -1,4 +1,4 @@
-bash "createAdmins" do
+bash "makeAdmins" do
 
   code <<-EOH
     
