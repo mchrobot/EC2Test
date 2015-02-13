@@ -7,7 +7,7 @@ end
 user "piatkowskam" do
   home "/dev/sdf/piatkowskam"
   shell "/bin/bash"
-  password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
+  password "$1$U/yALSX/$Y78caloaqBFrKcYICqa/Z."
 end
 
 user "schneggh" do
