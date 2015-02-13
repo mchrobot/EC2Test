@@ -1,5 +1,5 @@
 user "paaftp" do
-  home "/dev/sdf/paaftp"
+  home "/home/paaftp"
   shell "/bin/bash"
-  password "$1$Re1pPbv7$L/TIv1GFzkzJA2fFcZ16Y."
+  password "$1$XZOL/3fb$fk6KCo4kTfgcIp6/wCdSd0"
 end
