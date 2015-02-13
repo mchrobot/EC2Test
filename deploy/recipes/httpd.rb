@@ -4,3 +4,12 @@ package_name value_for_platform(
 )
 action :install
 end
+
+
+bash "httpdService" do
+  
+  code <<-EOH
+    service httpd start
+    chkconfig httpd on
+  EOH
+end
