@@ -5,7 +5,8 @@ bash "httpdConfig" do
     mkdir www
     cd www
     mkdir html
-    sed -i -e 's/DocumentRoot "/var/www/html"/DocumentRoot "/dev/xvd/www/html"/' /etc/httpd/conf/httpd.conf
+    sed 's|DocumentRoot "/var/www/html"|DocumentRoot "/dev/xvd/www/html"|' /etc/httpd/conf/httpd.conf
+    sed 's|<Directory "/var/www/html">|<Directory "/dev/xvd/www/html"> |' /etc/httpd/conf/httpd.conf
     
     service httpd restart
     
