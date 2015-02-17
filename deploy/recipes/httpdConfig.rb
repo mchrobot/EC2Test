@@ -6,7 +6,7 @@ bash "httpdConfig" do
     cd www
     mkdir html
     cd /
-    sed 's|/var/www/html|/dev/xvd/www/html|' /etc/httpd/conf/httpd.conf
+    sed -e -i 's|/var/www/html|/dev/xvd/www/html|' /etc/httpd/conf/httpd.conf
     
     
     service httpd restart
