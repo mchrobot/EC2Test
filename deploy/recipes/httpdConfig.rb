@@ -5,8 +5,8 @@ bash "httpdConfig" do
     mkdir www
     cd www
     mkdir html
-    cd ..
-    chmod 777 html
+    cd /dev/xvd/www
+    chmod 775 html
     cd /
     sed -i -e 's|/var/www/html|/dev/xvd/www/html|' /etc/httpd/conf/httpd.conf
     
